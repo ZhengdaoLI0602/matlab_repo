@@ -27,9 +27,21 @@ Configure the variables "KF_ON" and "FGO_ON" in order to execute the four integr
 - KF_ON = [0 0], FGO_ON = [1 0]; run FGO
 - KF_ON = [0 0], FGO_ON = [0 1]; run AFGO
 
-After running the codes, the following files are expected to be generated in folder "EnvFolder/IntiResults" 
+After running the script, the following files are expected to be generated in folder "EnvFolder/IntiResults" 
 - POSITIONING_SOLUTIONS_OF_ALL_INTEGRATION METHODS.mat
-
+And the following matlab figures are expected to be generated after in folder "EnvFolder/IntiResults"
+- After running KF
+  - Traj_KF.fig (2D trajectory of Truth/GNSS/KF)
+  - 2dE.fig (2D error of Truth/GNSS/KF throughout the time frame)
+- After running AKF
+  - Traj_AKF.fig (2D trajectory of Truth/GNSS/KF/AKF)
+  - 2dE.fig (2D error of Truth/GNSS/KF/AKF throughout the time frame)
+- After running FGO
+  - Traj_FGO.fig (2D trajectory of Truth/GNSS/KF/AKF/FGO)
+  - 2dE.fig (2D error of Truth/GNSS/KF/AKF/FGO throughout the time frame)
+- After running AFGO
+  - Traj_AFGO.fig (2D trajectory of Truth/GNSS/KF/AKF/FGO/AFGO)
+  - 2dE.fig (2D error of Truth/GNSS/KF/AKF/FGO/AFGO throughout the time frame)
 
 
 

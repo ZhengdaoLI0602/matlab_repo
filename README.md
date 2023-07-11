@@ -1,6 +1,8 @@
-# Introduction
+# Introduction->rename the variables->upload folders
 Where is it from? what for?
 What are the usage/functions?
+
+
 
 # STEP 1: Run "Make_Format.m" inside folder "DataPrepare"
 

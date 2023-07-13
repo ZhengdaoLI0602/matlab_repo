@@ -4,7 +4,7 @@ Based on the thesis titled "", this repository is aimed for comparing 2D positio
 # How to run problem
 ## STEP 1: Navigate to folder "DataPrepare", run "Make_Format.m" inside folder "DataPrepare"
 Before running all the scripts, add folder "Functions" as subfolders in MATLAB.
-"EnvFolder" is the "FOLDER_STORING_ALL_THE_PREPARED_DATASETS" manually-prepared by users. It is designed to contain:
+"EnvFolder" is the folder storing all the prepared datasets and the processed results. It is designed to contain:
 - An empty folder named "IniResults" storing the intermediate and ultimate results
 - MAT_FILE_OF_EXTRACTED_GNSS_FEATURES.mat
 - MAT_FILE_OF_CNN_PREDICTION_FOR_EACH_AVAILABLE_GNSS_EPOCH.mat
